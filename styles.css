@@ -56,12 +56,9 @@ body {
 }
 
 .social_icon {
-    width: 3%;
-    min-width: max-content;
-}
-
-object {
     width: 2%;
+    height: auto;
+    border: 0;
     min-width: 30px;
 }
 
