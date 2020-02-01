@@ -2,9 +2,10 @@ html {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Optima, sans-serif;
-    font-size: 18pt;
+    font-size: 100%;
     color: #404040;
     min-height: 100%;
     background: linear-gradient(to bottom, #f2f2f2, #b3b3b3) fixed;
@@ -18,15 +19,24 @@ body {
     width: 100%;
 }
 
+.about {
+    position: relative;
+    margin-bottom: 3%;
+    font-size: 100%;
+}
+
 .hey {
-    font-size: 32pt;
+    font-size: 400%;
+}
+
+.name {
+    font-size: 200%;
 }
 
 .description {
     margin-top: 3%;
-    font-size: 15pt;
+    font-size: 150%;
 }
-
 .frame {
     width: 15%;
     background: #eee;
@@ -40,11 +50,6 @@ body {
     padding: 3%;
 }
 
-.about {
-    position: relative;
-    margin-bottom: 6%;
-    font-size: 18pt;
-}
 
 .social {
     padding: 15px;
@@ -57,9 +62,11 @@ body {
     width: 3%;
 }
 
+object {
+    width: 2%;
+}
 
 a {
-    padding: 3%;
-    stroke: blueviolet;
+    padding: 2%;
 }
 
