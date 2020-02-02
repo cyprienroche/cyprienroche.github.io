@@ -42,10 +42,10 @@ body {
 
 .about {
     position: relative;
-    margin-bottom: 4%;
+   margin: auto;
     font-size: 100%;
-    width: 100%;
-    min-width: 500px;
+    width: 800px;
+    min-width: 700px;
 }
 
 .hey {
