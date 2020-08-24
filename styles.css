@@ -42,7 +42,7 @@ body {
 
 .about {
     position: relative;
-   margin: auto;
+    margin: auto;
     font-size: 100%;
     width: 800px;
     min-width: 800px;
@@ -75,4 +75,3 @@ body {
     min-width: 30px;
     margin: 0;
 }
-
