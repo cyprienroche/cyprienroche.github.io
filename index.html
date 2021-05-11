@@ -1,195 +1,164 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Cyprien Roche</title>
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="particles.js"></script>
 
-    <meta property='og:title' content='My personal website'/>
-    <meta property='og:description' content='Here you can find my CV as well as links to my Linkedin, Twitter and GitHub accounts.'/>
-    <meta property='og:image' content='resources/Preview.png'/>
-    <meta property='og:url' content='https://www.doc.ic.ac.uk/~cr618/'/>
+    <meta property='og:title' content='My personal website' />
+    <meta property='og:description' content='Here you can find links to my Linkedin and GitHub accounts.' />
+    <meta property='og:image' content='resources/Preview.png' />
+    <meta property='og:url' content='https://cyprienroche.github.io/' />
     <meta property="og:type" content='Website' />
     <meta name="author" content="Cyprien Roche">
 
 </head>
 
 <body>
-<!-- Particle background start -->
-<!-- Source: https://vincentgarreau.com/particles.js/ -->
-<div id="particles-js"></div>
-<!-- Particle background end -->
+    <!-- Particle background start -->
+    <!-- Source: https://vincentgarreau.com/particles.js/ -->
+    <div id="particles-js"></div>
+    <!-- Particle background end -->
+    &nbsp
+    <!-- About Me section start -->
+    <div class="about">
+        <p class="name"> <strong>Cyprien Roche</strong></p>
+        <p class="description">Product Manager Intern at Microsoft, working on Cortana in Windows.</p>
+    </div>
+    <!-- About Me section end -->
 
-<!-- Profile picture section start -->
-<div style="margin-top: 6%;" class="frame">
-    <img src="resources/Animoji.png" class="profile_img" alt="Profile picture">
-</div>
-<!-- Profile picture section end -->
-
-<!-- About Me section start -->
-<div style="margin-bottom: 4%; margin-top: -2%" class="about">
-    <p class="hey">
-        <strong><label id="lblGreetings"></label></strong>
-    </p>
-    <p class="name">
-        I'm <strong>Cyprien Roche</strong>, a Computer Science Student at <em style="color: #a00000">Imperial College London</em>.
-    </p>
-    <p class="description">
-        I am passionate about understanding meaningful problems, designing innovative solutions and developing tangible software while collaborating with cross-functional teams.
-    </p>
-</div>
-<!-- About Me section end -->
-
-<!-- Contacts section start -->
-<!-- Svg icons from: https://fontawesome.com/ -->
-<div class="social">
-        <a href="https://www.linkedin.com/in/cyprienroche" target="_blank">
-            <img src="resources/png/linkedin-icon.png" class="social_icon" alt="Linkedin">
-        </a>
+    <!-- Contacts section start -->
+    <!-- Svg icons from: https://fontawesome.com/ -->
+    <div class="social">
 
         <a href="https://github.com/cyprienroche" target="_blank">
-            <img src="resources/png/github-icon.png" class="social_icon" alt="Github">
+            <img src="resources/icons/github-icon.png" class="social_icon" alt="Github">
         </a>
 
-        <a href="https://twitter.com/cyprienroche" target="_blank">
-            <img src="resources/png/twitter-icon.png" class="social_icon" alt="Twitter">
+        <a href="https://www.linkedin.com/in/cyprienroche" target="_blank">
+            <img src="resources/icons/linkedin-icon.png" class="social_icon" alt="Linkedin">
         </a>
 
-        <a href="resources/CyprienRocheCV.pdf" target="_blank">
-            <img src="resources/png/cv-icon.png" class="social_icon" alt="CV">
-        </a>
+    </div>
+    <!-- Contacts section end -->
 
-</div>
-<!-- Contacts section end -->
-
-<script>
-    var myDate = new Date();
-    var hrs = myDate.getHours();
-
-    var greet;
-
-    if (hrs < 12)
-        greet = 'Good Morning';
-    else if (hrs >= 12 && hrs <= 18)
-        greet = 'Good Afternoon';
-    else if (hrs >= 18 && hrs <= 24)
-        greet = 'Good Evening';
-
-    document.getElementById('lblGreetings').innerHTML = greet;
-</script>
+    </div>
+    <!-- Contacts section end -->
 
 
-<script type="text/javascript">
-    particlesJS("particles-js", {
-        "particles": {
-            "number": {
-                "value": 80,
-                "density": {
-                    "enable": true,
-                    "value_area": 800
-                }
-            },
-            "color": {
-                "value": "#a00000"
-            },
-            "shape": {
-                "type": "circle",
-                "stroke": {
-                    "width": 0,
-                    "color": "#000000"
-                },
-                "polygon": {
-                    "nb_sides": 5
-                },
-                "image": {
-                    "src": "img/github.svg",
-                    "width": 100,
-                    "height": 100
-                }
-            },
-            "opacity": {
-                "value": 0.5,
-                "random": false,
-                "anim": {
-                    "enable": false,
-                    "speed": 1,
-                    "opacity_min": 0.1,
-                    "sync": false
-                }
-            },
-            "size": {
-                "value": 3,
-                "random": true,
-                "anim": {
-                    "enable": false,
-                    "speed": 40,
-                    "size_min": 0.1,
-                    "sync": false
-                }
-            },
-            "line_linked": {
-                "enable": true,
-                "distance": 150,
-                "color": "#a00000",
-                "opacity": 0.4,
-                "width": 1
-            },
-            "move": {
-                "enable": true,
-                "speed": 6,
-                "direction": "none",
-                "random": false,
-                "straight": false,
-                "out_mode": "out",
-                "bounce": false,
-                "attract": {
-                    "enable": false,
-                    "rotateX": 600,
-                    "rotateY": 1200
-                }
-            }
-        },
-        "interactivity": {
-            "detect_on": "window",
-            "events": {
-                "onhover": {
-                    "enable": false,
-                    "mode": "repulse"
-                },
-                "onclick": {
-                    "enable": false,
-                    "mode": "push"
-                },
-                "resize": true
-            },
-            "modes": {
-                "grab": {
-                    "distance": 400,
-                    "line_linked": {
-                        "opacity": 1
+    <script type="text/javascript">
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 50,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
                     }
                 },
-                "bubble": {
-                    "distance": 400,
-                    "size": 40,
-                    "duration": 2,
-                    "opacity": 8,
-                    "speed": 3
+                "color": {
+                    "value": "#aa0101"
                 },
-                "repulse": {
-                    "distance": 200,
-                    "duration": 0.4
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
                 },
-                "push": {
-                    "particles_nb": 4
+                "opacity": {
+                    "value": 0.8,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
                 },
-                "remove": {
-                    "particles_nb": 2
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#aa0101",
+                    "opacity": 0.5,
+                    "width": 0.5
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 0.5,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
                 }
-            }
-        },
-        "retina_detect": true
-    });
-</script>
+            },
+            "interactivity": {
+                "detect_on": "window",
+                "events": {
+                    "onhover": {
+                        "enable": false,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": false,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
 </body>
+
 </html>

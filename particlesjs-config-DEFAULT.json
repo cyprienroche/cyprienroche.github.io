@@ -8,7 +8,7 @@
       }
     },
     "color": {
-      "value": "#a00000"
+      "value": "#aa0101"
     },
     "shape": {
       "type": "circle",
@@ -26,7 +26,7 @@
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.8,
       "random": false,
       "anim": {
         "enable": false,
@@ -48,17 +48,17 @@
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#a00000",
+      "color": "#aa0101",
       "opacity": 0.4,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 0.5,
       "direction": "none",
       "random": false,
       "straight": false,
-      "out_mode": "out",
+      "out_mode": "bounce",
       "bounce": false,
       "attract": {
         "enable": false,
