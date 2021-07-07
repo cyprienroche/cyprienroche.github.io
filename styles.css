@@ -38,7 +38,7 @@ body {
 .social {
     text-align: center; 
     display: flex;
-    width: 5%;
+    width: 170px;
     min-width: 50px;
     margin: 0 auto;
 }
