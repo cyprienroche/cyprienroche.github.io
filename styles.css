@@ -50,3 +50,17 @@ body {
     min-width: 20px;
     margin: 0;
 }
+
+.back {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+iframe {
+    height: 92vh;
+}
+
+a {
+    color: #aa0101;
+}
