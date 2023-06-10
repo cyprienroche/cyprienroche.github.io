@@ -26,9 +26,8 @@ p {
   margin-bottom: 0.5em;
 }
 
-.container {
+main {
   max-width: 100%;
-  /* 1680  */
   margin: 25px 15%;
   padding: 50px 10%;
   background-color: rgb(255, 255, 255, 0.9);
@@ -40,18 +39,10 @@ p {
   justify-content: space-between;
 }
 
-.sub-section-title-middle {
-  margin: 0;
-}
-
 .sub-section-title-bottom {
   font-style: italic;
   margin-bottom: 1em;
-}
-
-.content {
-  margin-bottom: 1em;
-}
+} 
 
 .divider {
   border-bottom: 1px solid #303030;
