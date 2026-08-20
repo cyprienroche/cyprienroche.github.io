@@ -1,7 +1,8 @@
 {
   "name": "Cyprien Roche",
   "short_name": "Cyprien Roche",
-  "description": "Cyprien Roche's personal website",
+  "description": "Site personnel de Cyprien Roche",
+  "lang": "fr-FR",
   "start_url": "/",
   "scope": "/",
   "icons": [

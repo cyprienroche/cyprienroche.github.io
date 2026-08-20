@@ -61,20 +61,6 @@ main {
   background-color: rgb(255, 255, 255, 0.9);
 }
 
-.site-footer {
-  margin: 0 15% 25px;
-  text-align: center;
-}
-
-.site-footer p,
-.site-footer a {
-  font-size: 12px;
-}
-
-.site-footer a {
-  color: #910032;
-}
-
 .sub-section-title-top, 
 .sub-section-title-bottom {
   display: flex;
@@ -122,11 +108,6 @@ main {
     padding: 25px 2%;
   }
 
-  .site-footer {
-    margin-right: 5%;
-    margin-left: 5%;
-  }
-
   html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
     font-size: 14px;
   }
@@ -141,11 +122,6 @@ main {
   main {
     margin: 25px 2%;
     padding: 25px 1%;
-  }
-
-  .site-footer {
-    margin-right: 2%;
-    margin-left: 2%;
   }
 
   html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
