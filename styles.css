@@ -50,6 +50,10 @@ p {
   margin-bottom: 0.5em;
 }
 
+.intro-link {
+  color: #910032;
+}
+
 main {
   max-width: 100%;
   margin: 25px 15%;
